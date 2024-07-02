@@ -13,4 +13,5 @@ Simple Python function to read hitran cross section file
 	import read_hitran
 	xsc_file = 'C3H6_600.0K-9.5Torr_2500.0-3500.0_123.xsc'
 	xh,yh,mh=read_hitran.read_hitran.read_xc(xscfile)
-	
+
+`xh` is the wavelength in microns. `yh` is the cross section. `mh` is metadata in a dictionary.
